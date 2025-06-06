@@ -21,7 +21,7 @@ export async function fetchProductsFromSheet(config: SheetConfig): Promise<Produ
     const products = data.table.rows.slice(1).map((row: any) => ({
       title: row.c[0]?.v || '',
       link: row.c[1]?.v || '',
-      image: row.c[3]?.v || ''
+      image: row.c[2]?.v || ''
     }));
 
     return products;
