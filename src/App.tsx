@@ -15,7 +15,7 @@ function App() {
     async function loadProducts() {
       try {
         const config: SheetConfig = {
-          sheetId: '12v1HJ0hg6Y24mLVJJrlnnlZC67rS2o-qUQMuIKS8Tv4',
+          sheetId: '1S_ifsOpJcqkYpHDbuavo8HLUknjx4VlwLiG26rvCCc0',
           range: 'Sheet1!A:D',
         };
 
@@ -46,12 +46,12 @@ function App() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <img 
-                src="https://pub-978fa224b48646b0b99f042a0935693b.r2.dev/techreviewprologo.png" 
-                alt="TechReviewPro Logo" 
+                src="https://i.ibb.co/tpkzCpRx/affiliate.png" 
+                alt="affiliate Logo" 
                 className="h-7 sm:h-8 w-auto"
               />
               <h1 className="text-lg sm:text-xl font-bold text-gray-900">
-                TechReviewPro
+                Affiliate links
               </h1>
             </div>
           </div>
